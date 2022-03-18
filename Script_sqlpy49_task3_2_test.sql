@@ -16,6 +16,6 @@ values
 	
 --3.2.4. Выведем табл на экран
 select e.employee_id , e.employee_name , e.department_id , e.chief_id ,
-		e2.employee_name as chief_name 
+	e2.employee_name as chief_name 
 from sqlpy49_task3_2.employee e
 join sqlpy49_task3_2.employee e2 on e2.employee_id = e.chief_id ; 
